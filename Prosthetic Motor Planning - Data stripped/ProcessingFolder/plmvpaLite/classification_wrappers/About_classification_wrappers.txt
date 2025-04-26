@@ -1,0 +1,3 @@
+Everything in here except the SAL ones are old studies from Dr. Brown. They're all basically the same, and it's easier to just start looking through one of them than for me to explain it all here.
+
+You just need to make a copy for your own purposes and make sure things in there are updated to reflect your own filepaths.

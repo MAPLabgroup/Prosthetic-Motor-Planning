@@ -1,0 +1,17 @@
+Hello! If you're reading this, it means you're picking up where I left off.
+
+To make it slightly easier for you to figure things out, I'm gonna leave these little notes all throughout this big folder with little notes about what things are. In addition, I will leave comments in any code I wrote or worked on to explain what I did.
+
+To begin with, this folder contains the following
+1. The processing folder
+	This folder has basically everything to do with the project in it that you will need to work with. It has the data, any scripts, etc. More detail will be given in deeper levels
+
+2. Report 1 
+	This was a report I made to Dr. Brown and Dr. Wheaton in 2024 based on the results of my work. The report kind of only makes sense if you understand my whole project, but the visualizations are useful. It will make more sense in my thesis once I finish writing it, so if I remember to I'll throw that in here as well.
+
+3. Johnson Dissertation
+	This is the dissertation of one of Dr. Wheaton's postdocs, Dr. John Johnson. He gathered the original dataset I worked with, and the dissertation chapters describe some of how he did this. 
+
+
+Action items
+	About_sub-01, classification wrapper file, parameter file, scripts in SAL (4), thesis upload/link

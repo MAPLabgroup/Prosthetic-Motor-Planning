@@ -1,0 +1,25 @@
+This folder looks scary however it's actually not bad.
+
+1. I don't know what those .ps files are. They are described at the link below, however truly don't worry about them since I never used them so they probably aren't important. It seems like they're log files of when I used spm throughout the project
+https://imaging.mrc-cbu.cam.ac.uk/imaging/SpmGraphics 
+
+2. Individual .mat files 
+	these are all batch operations used in SPM to preprocess the fMRI data with the eventual goal of normalizing clean data to MNI space for all subjects. 
+
+	4Dto3DBlank - The raw data had 4D fMRI data (the 4th axis is time). This turns it into many 3D files, one per TR
+	DartelCreateTemplates - Creates templates to use to warp subject MRI to standard MNI space
+	MNIFunc - Transforms the functional images to MNI space for all subjects except pre-post (20 and 21)
+	MNIFuncPrePost - Does above for subs 20 and 21. This was only done separately because I did them later than the standard subjects
+	MNIStruct - Transforms the structural to MNI space for subs except 20 and 21
+	MNIStructPrePost - Transforms structural for 20 and 21
+	Segment - Defines what regions of fMRI are different tissue types (white matter, gray matter, CSF)
+
+3. mvpa_sample_data folder
+	This is basically a shell folder; it exists so that you can have multiple datasets in there and switch between them I think. For me, I just wanted to use this method on one dataset, so the only thing in there is my dataset and relevant files. The other nice thing about this folder is that it lets the template scripts from Dr. Brown work properly in terms of filepaths. 
+
+4. plmvpaLite folder
+	This is a toolbox made by Princeton with all the necessary files to run multivariate pattern analysis. Most of it I never touched since it's essentially a package, but there are a couple things I/you do need to interact with in there if you plan to run your own MVPA. Essentially, you need to define a parameters file and a run file in some of the sub folders in there. 
+	This folder does have some most likely unnecessary bloat since there's some older files from other studies still there. They can likely be deleted, but also they're tiny so don't make yourself crazy about it. 
+
+5. SPM12 folder
+	This is the SPM package. If you've taken Dr. Brown's decoding neural information course, it's the same package we used in that class. SPM is useful for a lot of things, but what I used it for is transforming data, visualizing data, and making masks. I won't be leaving deeper details in this folder, as it's basically a program and I'm more familiar with the GUI than the actual files that it runs off of. Don't worry, everyone in the lab can help you with SPM. 
